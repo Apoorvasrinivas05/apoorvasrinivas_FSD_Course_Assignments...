@@ -12,8 +12,6 @@
 <form action="pets" method="post" name="form_name" id="form_id" class="form_class" >
   <label for="name">Name:</label><br>
   <input type="text" id="name" name="name"><br>
-  <label for="color">Color:</label><br>
-  <input type="text" id="color" name="color"><br>
   <label for="price">Price:</label><br>
   <input type="number" id="price" name="price"><br><br>
   <input type="submit" value="Submit" >

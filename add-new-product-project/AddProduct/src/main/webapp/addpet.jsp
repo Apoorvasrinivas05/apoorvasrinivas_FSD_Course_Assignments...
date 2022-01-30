@@ -4,8 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Add Pet</title>
-<script src="addproduct.js"></script>
+    <title>Add Pet</title>
 </head>
 <body>
 
@@ -17,7 +16,7 @@
   <input type="text" id="color" name="color"><br>
   <label for="price">Price:</label><br>
   <input type="number" id="price" name="price"><br><br>
-  <input type="submit" value="Submit" onclick="addpet_onclick()">
+  <input type="submit" value="Submit" >
 </form>
 
 

@@ -3,9 +3,6 @@ SQL
 
 ```sql
 CREATE DATABASE pets;
-create user 'springuser'@'%' identified by 'ThePassword'; -- Creates the user springuser
-grant all on pets.* to 'springuser'@'%'; -- Gives all privileges to the new user on the newly created database
-```
 
 ```sql
 CREATE TABLE pets.products (

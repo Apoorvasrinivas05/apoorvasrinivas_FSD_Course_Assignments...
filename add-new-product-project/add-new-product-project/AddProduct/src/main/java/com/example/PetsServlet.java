@@ -63,7 +63,7 @@ public class PetsServlet extends HttpServlet {
                 out.println("<b>Product Listing</b><br>");
                 for(Product p: list) {
                         out.println("ID: " + String.valueOf(p.getID()) + ", Name: " + p.getName() +
-                                        ", Price: " + String.valueOf(p.getPrice()) + ", Color: " + p.getColor().toString() + "<br>");
+                                        ", Price: " + String.valueOf(p.getPrice()) ;
                 }
                 
             out.println("</body></html>");
